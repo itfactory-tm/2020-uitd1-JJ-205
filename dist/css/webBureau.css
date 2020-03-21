@@ -1,4 +1,22 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+*{
+    margin: 0;
+    padding: 0;}
+
+.form-group{
+    text-align: left;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+.voornaam{
+    max-width: 325px;
+}
+.achternaam{
+    max-width: 325px;
+}
+
 
 

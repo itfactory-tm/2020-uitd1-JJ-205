@@ -70,8 +70,7 @@
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <h2>Wie zijn we</h2>
-                <p class="lead mb-5">Wij zijn een jonge, gemotiveerde groep die jouw webpagina maakt zoals u het
-                    wilt.</p>
+                <p class="lead mb-5">Wij zijn een jonge, gemotiveerde groep die jouw webpagina maakt zoals u het wilt.</p>
 
 
             </div>
@@ -233,6 +232,7 @@
             <h3 class="text-secondary mb-0">Contact</h3>
             <h2 class="mb-5">Contacteer ons</h2>
         </div>
+
         <p>Vul hier het formulier in om op de hoogte te blijven van onze projecten! Als je wilt kan je je ook
             inschrijven voor onze nieuwsbrief. Als je opmerkingen of vragen hebt kan je ze altijd stellen.</p>
         <form class="form">
@@ -245,13 +245,29 @@
                     <label for="InputAchternaam">Achternaam</label>
                     <input type="text" class="form-control" id="InputAchternaam">
                 </div>
+
+        <p>Vul hier het formulier in om op de hoogte te blijven van onze projecten! Als je wilt kan je je ook inschrijven voor onze nieuwsbrief.</p>
+        <form class="form" action="inschrijving.php" method="post">
+            <div class="form-group voornaam">
+                <label class="col-lg-6" for="InputVoornaam">Voornaam</label>
+                <input type="text"  class="form-control" id="InputVoornaam" name="InputVoornaam">
+            </div>
+            <div class="form-group achternaam">
+                <label class="col-lg-6" for="InputAchternaam">Achternaam</label>
+                <input type="text"  class="form-control" id="InputAchternaam" name="InputAchternaam">
+
             </div>
 
             <div class="form-group email">
                 <label for="InputEmail1">Email addres</label>
+
                 <input type="email" class="form-control" id="InputEmail1">
                 <small id="emailHelp" class="form-text text-muted">We gaan uw email nooit voor publiek
                     stellen.</small>
+              
+                <input type="email" class="form-control" id="InputEmail1" name="InputEmail1">
+                <small id="emailHelp" class="form-text text-muted">We gaan uw email nooit voor publiek stellen.</small>
+
             </div>
             <div class="form-group form-check textarea">
                 <label for="Textarea">Vragen of opmerkingen?</label>
@@ -263,7 +279,12 @@
                     nieuwsbrief.</label>
             </div>
 
+
             <button type="submit" class="btn btn-primary">Indienen</button>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-primary">Reset de form</button>
+
         </form>
     </div>
 </section>

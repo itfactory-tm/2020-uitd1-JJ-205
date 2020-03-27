@@ -70,91 +70,40 @@
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <h2>Wie zijn we</h2>
-                <p class="lead mb-5">Wij zijn een jonge, gemotiveerde groep die jouw webpagina maakt zoals u het wilt.</p>
+                <p class="lead mb-5">Wij zijn een jonge, gemotiveerde groep die jouw webpagina maakt zoals u het
+                    wilt.</p>
 
 
             </div>
             <div class="persoon col-lg-4">
-                <img src="" alt="Porter Arnaud">
+                <img src="" alt="Porter Arnaud" class="portret">
                 <h3>Arnaud Provoost</h3>
                 <p>*kort tekstje dat je beschrijft*</p>
             </div>
             <div class="persoon col-lg-4">
-                <img src="" alt="Portret Tristan">
+                <img src="" alt="Portret Tristan" class="portret">
                 <h3>Tristan Jacobs</h3>
                 <p>Een gemotiveerde front-end developer die de beste designs kan maken. Via deze link surf je naar mijn
                     persoonlijke webruimte.<a href="https://tristan.sinners.be/">Sinners.be</a></p>
             </div>
             <div class="persoon col-lg-4">
-                <img src="" alt="Portret Jonathan">
+                <img src="img/Jonathan.jpg" alt="Portret Jonathan" class="portret">
                 <h3>Jonathan Haesendonckx</h3>
                 <p>*kort tekstje dat je beschrijft*</p>
             </div>
-            <div class="col-lg-10 mx-auto">
-                <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Wat we leveren</a>
-            </div>
+
         </div>
     </div>
 </section>
 
-<!-- Services -->
-<section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
-        <div class="content-section-heading">
-            <h3 class="text-secondary mb-0">Services</h3>
-            <h2 class="mb-5">Wat we bieden</h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-                <h4>
-                    <strong>Responsief</strong>
-                </h4>
-                <p class="text-faded mb-0">Perfecte weergave op elk scherm!</p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-<!--                <h4>-->
-<!--                    <strong>Ontwerpen</strong>-->
-<!--                </h4>-->
-<!--                <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>-->
-<!--            </div>-->
-<!--            <div class="col-lg-3 col-md-6 mb-5 mb-md-0">-->
-<!--          <span class="service-icon rounded-circle mx-auto mb-3">-->
-<!--            <i class="icon-like"></i>-->
-<!--          </span>-->
-                <h4>
-                    <strong>Favorited</strong>
-                </h4>
-                <p class="text-faded mb-0">Millions of users
-                    <i class="fas fa-heart"></i>
-                    Start Bootstrap!</p>
-            </div>
-            <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-                <h4>
-                    <strong>Question</strong>
-                </h4>
-                <p class="text-faded mb-0">I mustache you a question...</p>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Callout -->
 <section class="callout">
     <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome to
-            <em>your</em>
-            next website!</h2>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download
-            Now!</a>
+        <h2 class="mx-auto mb-5">Welkom bij
+            <em>jouw</em>
+            nieuwe website!</h2>
+        <a class="btn btn-primary btn-xl" href="#contact">Contacteer ons!</a>
     </div>
 </section>
 
@@ -216,14 +165,6 @@
     </div>
 </section>
 
-<!-- Call to Action -->
-<section class="content-section bg-primary text-white">
-    <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-    </div>
-</section>
 
 <!-- Contact -->
 <section id="contact" class="content-section">
@@ -246,47 +187,49 @@
                     <input type="text" class="form-control" id="InputAchternaam">
                 </div>
 
-        <p>Vul hier het formulier in om op de hoogte te blijven van onze projecten! Als je wilt kan je je ook inschrijven voor onze nieuwsbrief.</p>
-        <form class="form" action="inschrijving.php" method="post">
-            <div class="form-group voornaam">
-                <label class="col-lg-6" for="InputVoornaam">Voornaam</label>
-                <input type="text"  class="form-control" id="InputVoornaam" name="InputVoornaam">
+                <p>Vul hier het formulier in om op de hoogte te blijven van onze projecten! Als je wilt kan je je ook
+                    inschrijven voor onze nieuwsbrief.</p>
+                <form class="form" action="inschrijving.php" method="post">
+                    <div class="form-group voornaam">
+                        <label class="col-lg-6" for="InputVoornaam">Voornaam</label>
+                        <input type="text" class="form-control" id="InputVoornaam" name="InputVoornaam">
+                    </div>
+                    <div class="form-group achternaam">
+                        <label class="col-lg-6" for="InputAchternaam">Achternaam</label>
+                        <input type="text" class="form-control" id="InputAchternaam" name="InputAchternaam">
+
+                    </div>
+
+                    <div class="form-group email">
+                        <label for="InputEmail1">Email addres</label>
+
+                        <input type="email" class="form-control" id="InputEmail1">
+                        <small id="emailHelp" class="form-text text-muted">We gaan uw email nooit voor publiek
+                            stellen.</small>
+
+                        <input type="email" class="form-control" id="InputEmail1" name="InputEmail1">
+                        <small id="emailHelp" class="form-text text-muted">We gaan uw email nooit voor publiek
+                            stellen.</small>
+
+                    </div>
+                    <div class="form-group form-check textarea">
+                        <label for="Textarea">Vragen of opmerkingen?</label>
+                        <textarea class="form-control" id="Textarea" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group form-check ">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Ja, ik schrijf me in voor de
+                            nieuwsbrief.</label>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Indienen</button>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-primary">Reset de form</button>
+
+                </form>
             </div>
-            <div class="form-group achternaam">
-                <label class="col-lg-6" for="InputAchternaam">Achternaam</label>
-                <input type="text"  class="form-control" id="InputAchternaam" name="InputAchternaam">
-
-            </div>
-
-            <div class="form-group email">
-                <label for="InputEmail1">Email addres</label>
-
-                <input type="email" class="form-control" id="InputEmail1">
-                <small id="emailHelp" class="form-text text-muted">We gaan uw email nooit voor publiek
-                    stellen.</small>
-              
-                <input type="email" class="form-control" id="InputEmail1" name="InputEmail1">
-                <small id="emailHelp" class="form-text text-muted">We gaan uw email nooit voor publiek stellen.</small>
-
-            </div>
-            <div class="form-group form-check textarea">
-                <label for="Textarea">Vragen of opmerkingen?</label>
-                <textarea class="form-control" id="Textarea" cols="30" rows="10"></textarea>
-            </div>
-            <div class="form-group form-check ">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Ja, ik schrijf me in voor de
-                    nieuwsbrief.</label>
-            </div>
-
-
-            <button type="submit" class="btn btn-primary">Indienen</button>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-            <button type="reset" class="btn btn-primary">Reset de form</button>
-
-        </form>
-    </div>
 </section>
 
 <!-- Footer -->

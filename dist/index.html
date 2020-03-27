@@ -4,23 +4,23 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Leer de ontwerpers en hun webbureau van deze site kennen.">
-    <meta name="author" content="HTMLife">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Leer de ontwerpers en hun webbureau van deze site kennen." name="description">
+    <meta content="HTMLife" name="author">
 
     <title>Stylish-portfolio - Bootstrap Theme</title>
 
     <!-- CSS: Bootstrap, stylish portfolio, FA5 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
-    <link rel="stylesheet" href="css/stylish-portfolio.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+          rel="stylesheet">
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
     <!-- CSS: eigen stylesheet -->
-    <link rel="stylesheet" href="css/webBureau.css">
+    <link href="css/webBureau.css" rel="stylesheet">
 
 </head>
 <body id="page-top">
@@ -76,18 +76,18 @@
 
             </div>
             <div class="persoon col-lg-4">
-                <img src="" alt="Portret Arnaud" class="portret">
+                <img alt="Portret Arnaud" class="portret" src="">
                 <h3>Arnaud Provoost</h3>
                 <p>*kort tekstje dat je beschrijft*</p>
             </div>
             <div class="persoon col-lg-4">
-                <img src="" alt="Portret Tristan" class="portret">
+                <img alt="Portret Tristan" class="portret" src="">
                 <h3>Tristan Jacobs</h3>
                 <p>Een gemotiveerde front-end developer die de beste designs kan maken. Via deze link surf je naar mijn
                     persoonlijke webruimte.<a href="https://tristan.sinners.be/">Sinners.be</a></p>
             </div>
             <div class="persoon col-lg-4">
-                <img src="img/Jonathan.jpg" alt="Portret Jonathan" class="portret">
+                <img alt="Portret Jonathan" class="portret" src="img/Jonathan.jpg">
                 <h3>Jonathan Haesendonckx</h3>
                 <p>*kort tekstje dat je beschrijft*</p>
             </div>
@@ -118,7 +118,8 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
@@ -126,15 +127,18 @@
 
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                        content.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
             <div class="card">
-                
+
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
@@ -145,7 +149,7 @@
 
 
 <!-- Contact -->
-<section id="contact" class="content-section">
+<section class="content-section" id="contact">
     <div class="container text-center">
         <div class="content-section-heading text-center">
             <h3 class="text-secondary mb-0">Contact</h3>
@@ -154,60 +158,39 @@
 
         <p>Vul hier het formulier in om op de hoogte te blijven van onze projecten! Als je wilt kan je je ook
             inschrijven voor onze nieuwsbrief. Als je opmerkingen of vragen hebt kan je ze altijd stellen.</p>
-        <form class="form">
+        <form  action="inschrijving.php" method="post" class="form">
             <div class="row voornaam-naam">
                 <div class="form-group voornaam col-6">
                     <label for="InputVoornaam">Voornaam</label>
-                    <input type="text" class="form-control" id="InputVoornaam">
+                    <input class="form-control" id="InputVoornaam" type="text" name="InputVoornaam">
                 </div>
                 <div class="form-group achternaam col-6">
                     <label for="InputAchternaam">Achternaam</label>
-                    <input type="text" class="form-control" id="InputAchternaam">
+                    <input class="form-control" id="InputAchternaam" type="text" name="InputAchternaam">
+                </div>
+            </div>
+                <div class="form-group email">
+                    <label for="InputEmail1">Email addres</label>
+                    <input class="form-control" id="InputEmail1" name="InputEmail1" type="email">
+                    <small class="form-text text-muted" id="emailHelp">We gaan uw email nooit voor publiek
+                        stellen.</small>
+                </div>
+                <div class="form-group form-check textarea">
+                    <label for="Textarea">Vragen of opmerkingen?</label>
+                    <textarea class="form-control" cols="30" id="Textarea" rows="10" name="Textarea"></textarea>
+                </div>
+                <div class="form-group form-check ">
+                    <input class="form-check-input" id="exampleCheck1" type="checkbox">
+                    <label class="form-check-label" for="exampleCheck1">Ja, ik schrijf me in voor de
+                        nieuwsbrief.</label>
                 </div>
 
-                <p>Vul hier het formulier in om op de hoogte te blijven van onze projecten! Als je wilt kan je je ook
-                    inschrijven voor onze nieuwsbrief.</p>
-                <form class="form" action="inschrijving.php" method="post">
-                    <div class="form-group voornaam">
-                        <label class="col-lg-6" for="InputVoornaam">Voornaam</label>
-                        <input type="text" class="form-control" id="InputVoornaam" name="InputVoornaam">
-                    </div>
-                    <div class="form-group achternaam">
-                        <label class="col-lg-6" for="InputAchternaam">Achternaam</label>
-                        <input type="text" class="form-control" id="InputAchternaam" name="InputAchternaam">
 
-                    </div>
+                <button class="btn btn-primary" type="submit">Indienen</button>
+                <button class="btn btn-primary" type="reset">Reset de form</button>
 
-                    <div class="form-group email">
-                        <label for="InputEmail1">Email addres</label>
-
-                        <input type="email" class="form-control" id="InputEmail1">
-                        <small id="emailHelp" class="form-text text-muted">We gaan uw email nooit voor publiek
-                            stellen.</small>
-
-                        <input type="email" class="form-control" id="InputEmail1" name="InputEmail1">
-                        <small id="emailHelp" class="form-text text-muted">We gaan uw email nooit voor publiek
-                            stellen.</small>
-
-                    </div>
-                    <div class="form-group form-check textarea">
-                        <label for="Textarea">Vragen of opmerkingen?</label>
-                        <textarea class="form-control" id="Textarea" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="form-group form-check ">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Ja, ik schrijf me in voor de
-                            nieuwsbrief.</label>
-                    </div>
-
-
-                    <button type="submit" class="btn btn-primary">Indienen</button>
-
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <button type="reset" class="btn btn-primary">Reset de form</button>
-
-                </form>
-            </div>
+        </form>
+    </div>
 </section>
 
 <!-- Footer -->

@@ -28,10 +28,10 @@
         echo "<p> Je hebt geen achternaam ingevuld</p>\n";
     }
 
-    if (isset($_POST["InputEmail1"]) && $_POST["InputEmail1"] != "") {
-        echo "<p> Het antwoord op de vraag '" . $_POST["Vraag"] . "' wordt naar " . $_POST["InputEmail1"]." verstuurd </p>";
+    if (isset($_POST["Textarea"]) && $_POST["Textarea"] != "") {
+        echo "<p> Het antwoord op de vraag '" . $_POST["Textarea"] . "' wordt naar " . $_POST["InputEmail1"]." verstuurd </p>";
     } else {
-        echo "<p> Je hebt geen e-mailadress ingevuld</p>\n";
+        echo "<p> Je hebt geen vraag of e-mailadress ingevuld</p>\n";
     }
     ?>
 </div>

@@ -26,3 +26,8 @@
 }
 
 .textarea{max-width: 665px;}
+
+.portret{
+    max-width: 200px;
+    max-height: 200px;
+}

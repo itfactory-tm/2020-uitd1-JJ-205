@@ -10,10 +10,11 @@
     <title>Verwerking Form</title>
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/PHP-CSS.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/PHPCSS.css">
 </head>
 <body>
+<<<<<<< HEAD
 <!---->
 <!--<header class="masthead d-flex">-->
 <!--    <div class="container text-center my-auto text-div">-->

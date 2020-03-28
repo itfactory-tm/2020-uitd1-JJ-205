@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-    <title>Werwerking Form</title>
+    <title>Verwerking Form</title>
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/PHP-CSS.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/PHPCSS.css">
 </head>
 <body>
 
-<div class="">
+<div class="container">
     <?php
     if (isset($_POST["InputVoornaam"]) && $_POST["InputVoornaam"] != "") {
         echo "<p> Hallo " . $_POST["InputVoornaam"]." ";

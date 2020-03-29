@@ -1,34 +1,42 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
-*{
+* {
     margin: 0;
-    padding: 0;}
+    padding: 0;
+}
 
-.form-group{
+.form-group {
     text-align: left;
     max-width: 650px;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+}
 
 
-.voornaam{
+.voornaam {
     max-width: 325px;
     margin: 0px;
 }
-.achternaam{
+
+.achternaam {
     max-width: 325px;
     margin: 0px;
 }
-.voornaam-naam{margin-left: 230px;}
 
-.email{
+.voornaam-naam {
+    margin-left: 230px;
+}
+
+.email {
     max-width: 625px;
 }
 
-.textarea{max-width: 665px;}
+.textarea {
+    max-width: 665px;
+}
 
-.portret{
+.portret {
+    border-radius: 2%;
     max-width: 200px;
     max-height: 200px;
 }
-

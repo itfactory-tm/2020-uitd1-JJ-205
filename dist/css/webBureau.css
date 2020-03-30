@@ -36,7 +36,31 @@
 }
 
 .portret {
-    border-radius: 2%;
+    border-radius: 5%;
     max-width: 200px;
     max-height: 200px;
 }
+
+footer {
+    background-color: #1d809f;
+    color: whitesmoke;
+}
+
+.cpr {
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.head-in-footer {
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    vertical-align: bottom;
+}
+
+footer ul a{color: whitesmoke;}

@@ -11,11 +11,12 @@
 
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylish-portfolio.min.css">
     <link rel="stylesheet" href="css/PHPCSS.css">
 </head>
 <body>
-<<<<<<< HEAD
-<!---->
+
+
 <!--<header class="masthead d-flex">-->
 <!--    <div class="container text-center my-auto text-div">-->
 <!--        <h1 class="mb-1">HTMLife</h1>-->
@@ -28,24 +29,24 @@
 <!--</header>-->
 
 
-<div class="masthead d-flex omslag">
+<div class="masthead d-flex">
     <div class="container text-center my-auto text-div">
         <?php
         if (isset($_POST["InputVoornaam"]) && $_POST["InputVoornaam"] != "") {
-            echo "<p> Hallo " . $_POST["InputVoornaam"] . " ";
+            echo "<h1 class='mb-1'> Hallo " . $_POST["InputVoornaam"] . " ";
         } else {
-            echo "<p>je hebt geen voornaam ingevuld</p>\n";
+            echo "<h3 class='mb-1'>Je hebt geen voornaam ingevuld.</h3>\n";
         }
         if (isset($_POST["InputAchternaam"]) && $_POST["InputAchternaam"] != "") {
-            echo $_POST["InputAchternaam"] . "</p>\n";
+            echo $_POST["InputAchternaam"] . "</h1>\n";
         } else {
-            echo "<p> Je hebt geen achternaam ingevuld</p>\n";
+            echo "<h3 class='mb-1'> Je hebt geen achternaam ingevuld.</h3>\n";
         }
 
         if (isset($_POST["Textarea"]) && $_POST["Textarea"] != "") {
-            echo "<p> Het antwoord op de vraag '" . $_POST["Textarea"] . "' wordt naar " . $_POST["InputEmail1"] . " verstuurd </p>";
+            echo "<h3 class='mb-5'> Het antwoord op de vraag '" . $_POST["Textarea"] . "' wordt naar " . $_POST["InputEmail1"] . " verstuurd </h3>";
         } else {
-            echo "<p> Je hebt geen vraag of e-mailadress ingevuld</p>\n";
+            echo "<h3 class='mb-5'> Je hebt geen vraag of e-mailadress ingevuld.</h3>\n";
         }
         ?>
     </div>

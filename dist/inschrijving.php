@@ -44,10 +44,21 @@
         }
 
         if (isset($_POST["Textarea"]) && $_POST["Textarea"] != "") {
-            echo "<h3 class='mb-5'> Het antwoord op de vraag '" . $_POST["Textarea"] . "' wordt naar " . $_POST["InputEmail1"] . " verstuurd </h3>";
+            $leeg = False;
+            echo "<h3 class='mb-5'> Het antwoord op de vraag '" . $_POST["Textarea"] ;
         } else {
-            echo "<h3 class='mb-5'> Je hebt geen vraag of e-mailadress ingevuld.</h3>\n";
+            $leeg = True;
         }
+        if (isset($_POST["InputEmail1"]) && $_POST["InputEmail1"] != "" && $leeg != True) {
+            echo "' wordt naar ". $_POST["InputEmail1"] . " verstuurd <h3>";
+        }
+        else{
+            $leeg = True;
+        }
+        if ($leeg == True){
+            echo "Je hebt geen e-mailadress of vraag ingevuld";
+        }
+
         ?>
     </div>
 </div>

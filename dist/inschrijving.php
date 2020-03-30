@@ -45,20 +45,26 @@
 
         if (isset($_POST["Textarea"]) && $_POST["Textarea"] != "") {
             $leeg = False;
-            echo "<h3 class='mb-5'> Het antwoord op de vraag '" . $_POST["Textarea"] ;
+            echo "<h3 class='mb-5'> Het antwoord op de vraag '" . $_POST["Textarea"];
         } else {
             $leeg = True;
         }
         if (isset($_POST["InputEmail1"]) && $_POST["InputEmail1"] != "" && $leeg != True) {
-            echo "' wordt naar ". $_POST["InputEmail1"] . " verstuurd <h3>";
-        }
-        else{
+            echo "' wordt naar " . $_POST["InputEmail1"] . " verstuurd <h3>";
+        } else {
             $leeg = True;
         }
-        if ($leeg == True){
-            echo "Je hebt geen e-mailadress of vraag ingevuld";
-        }
 
+        if ($leeg == True) {
+            echo "<h3>Je hebt geen e-mailadress of vraag ingevuld</h3>";
+        }
+        $var = $_POST['exampleCheck1'];
+        if (isset($var))  {
+            echo "<p>Je hebt je ingeschreven voor de nieuwsbrief</p>";
+        }
+        else {
+            echo "<p>Je hebt je niet ingeschreven voor de nieuwsbrief</p>";
+        }
         ?>
     </div>
 </div>

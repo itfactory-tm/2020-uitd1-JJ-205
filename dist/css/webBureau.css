@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
 }
-
 .form-group {
     text-align: left;
     max-width: 650px;
@@ -12,23 +11,14 @@
     margin-right: auto;
 }
 
-
-.voornaam {
-    max-width: 325px;
-    margin: 0px;
-}
-
-.achternaam {
-    max-width: 325px;
-    margin: 0px;
-}
+.
 
 .voornaam-naam {
-    margin-left: 230px;
+    margin-left: auto;
 }
 
 .email {
-    max-width: 625px;
+    padding: 0px;
 }
 
 .textarea {
@@ -63,4 +53,24 @@ footer ul {
     vertical-align: bottom;
 }
 
-footer ul a{color: whitesmoke;}
+footer ul a {
+    color: whitesmoke;
+}
+
+.parallax {
+    background-image: url("../img/bg-masthead.jpg");
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("../img/bg-callout.jpg");
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

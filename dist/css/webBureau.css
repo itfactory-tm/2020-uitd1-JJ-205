@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
 }
+body{font-family: 'ABeeZee', sans-serif;}
+
 .form-group {
     text-align: left;
     max-width: 650px;
@@ -73,4 +75,8 @@ footer ul a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.logo{
+    max-width: 100px;
 }

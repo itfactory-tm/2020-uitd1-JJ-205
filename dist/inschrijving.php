@@ -66,6 +66,7 @@
             echo "<p>Je hebt jezelf niet ingeschreven voor de nieuwsbrief.</p>";
         }
         ?>
+        <a href="index.html">Homepage</a>
     </div>
 </div>
 </body>
